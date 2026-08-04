@@ -1,0 +1,25 @@
+{
+  "skill": "plateau-breakthrough",
+  "tests": [
+    {
+      "prompt": "我英语作文卡在21分上不去三个月了，怎么办",
+      "expect": "call"
+    },
+    {
+      "prompt": "我背单词总记不住",
+      "expect": "no-call (新手方法问题)"
+    },
+    {
+      "prompt": "我好累，想放弃学编程了",
+      "expect": "no-call (情绪)"
+    },
+    {
+      "prompt": "钢琴练到某个难度死活过不去，越练越差",
+      "expect": "call"
+    },
+    {
+      "prompt": "我最近刚换新方法练了两周没效果，是不是瓶颈了",
+      "expect": "no-call (正常波动)"
+    }
+  ]
+}
