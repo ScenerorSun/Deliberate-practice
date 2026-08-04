@@ -1,0 +1,25 @@
+{
+  "skill": "mental-representation-builder",
+  "tests": [
+    {
+      "prompt": "为什么老师一眼看出作文问题，我看不出来",
+      "expect": "call"
+    },
+    {
+      "prompt": "怎么学好数学",
+      "expect": "no-call (泛问)"
+    },
+    {
+      "prompt": "感觉学了很多知识但没有框架，怎么建立",
+      "expect": "call"
+    },
+    {
+      "prompt": "帮我总结一下这本书讲了什么",
+      "expect": "no-call (总结任务)"
+    },
+    {
+      "prompt": "怎么快速看懂一份行业报告",
+      "expect": "call"
+    }
+  ]
+}
