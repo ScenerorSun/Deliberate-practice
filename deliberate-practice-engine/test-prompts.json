@@ -1,0 +1,11 @@
+{
+  "skill": "deliberate-practice-engine",
+  "tests": [
+    {"prompt": "我练了三个月英语口语感觉没进步，帮我看看我的练习方法有没有问题", "expect": "call"},
+    {"prompt": "怎么背单词效率高", "expect": "call"},
+    {"prompt": "什么是心理表征？", "expect": "no-call (信息查询)"},
+    {"prompt": "我最近很焦虑，感觉什么都没做好", "expect": "no-call (情绪倾诉)"},
+    {"prompt": "我每天写代码，但感觉和去年水平一样，这样练有用吗", "expect": "call"},
+    {"prompt": "帮我看看我练琴安排：每天1小时，练熟悉的曲子，不录下来听", "expect": "call"}
+  ]
+}
