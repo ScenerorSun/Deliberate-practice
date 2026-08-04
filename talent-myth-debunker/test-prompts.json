@@ -1,0 +1,25 @@
+{
+  "skill": "talent-myth-debunker",
+  "tests": [
+    {
+      "prompt": "我是不是没有学编程的天赋",
+      "expect": "call"
+    },
+    {
+      "prompt": "为什么有人天生就聪明",
+      "expect": "no-call (泛论)"
+    },
+    {
+      "prompt": "那个天才少年太厉害了，我学不来",
+      "expect": "call"
+    },
+    {
+      "prompt": "孩子没音乐天赋，要不要放弃学琴",
+      "expect": "call"
+    },
+    {
+      "prompt": "帮我制定一个英语学习计划",
+      "expect": "no-call (engine/其它skill)"
+    }
+  ]
+}
