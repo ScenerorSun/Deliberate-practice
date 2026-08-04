@@ -1,0 +1,25 @@
+{
+  "skill": "feedback-loop-designer",
+  "tests": [
+    {
+      "prompt": "我自学写作没有老师，怎么知道自己写得好不好",
+      "expect": "call"
+    },
+    {
+      "prompt": "怎么写好公众号文章",
+      "expect": "no-call (创作类)"
+    },
+    {
+      "prompt": "怎么设计一个每周复盘系统",
+      "expect": "call"
+    },
+    {
+      "prompt": "我练口语都是自己练，不知道对不对",
+      "expect": "call"
+    },
+    {
+      "prompt": "帮我看看我这篇文章写得怎么样",
+      "expect": "no-call (直接评价)"
+    }
+  ]
+}
