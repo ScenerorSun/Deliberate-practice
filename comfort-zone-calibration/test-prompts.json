@@ -1,0 +1,25 @@
+{
+  "skill": "comfort-zone-calibration",
+  "tests": [
+    {
+      "prompt": "我每天练2小时钢琴，但全是练会的曲子，这算有效练习吗",
+      "expect": "call"
+    },
+    {
+      "prompt": "怎么提高钢琴水平",
+      "expect": "no-call (泛问)"
+    },
+    {
+      "prompt": "我练习时总失败，很挫败，是不是我太笨",
+      "expect": "call"
+    },
+    {
+      "prompt": "为什么我练口语没有进步",
+      "expect": "no-call (engine更合适)"
+    },
+    {
+      "prompt": "帮我看看我这个训练强度合适吗：每天30分钟新题+30分钟复习",
+      "expect": "call"
+    }
+  ]
+}
